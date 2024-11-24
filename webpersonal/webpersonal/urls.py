@@ -25,14 +25,12 @@ from django.conf import settings
 urlpatterns = [
     path('', core_views.home, name="home"),
     path('about/', core_views.about, name="about"),
-    path("portfolio/",portfolio_views.portfolio,name="portfolio"),
+    path("portfolio/", portfolio_views.portfolio, name="portfolio"),
     path('contact/', core_views.contact, name="contact"),
     path("admin/", admin.site.urls),
-
 ]
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL,
-    document_root=settings.MEDIA_ROOT)
 
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
