@@ -1,0 +1,212 @@
+body {
+    font-size: 20px;
+    color: #212529;
+    font-family: Lora, 'Times New Roman', serif;
+}
+
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #212529;
+    transition: all 0.2s;
+}
+
+a:focus, a:hover {
+    color: #0085a1;
+}
+
+blockquote {
+    font-style: italic;
+    color: #fff;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::selection, ::-moz-selection {
+    color: #fff;
+    background: #0085a1;
+    text-shadow: none;
+}
+
+img::selection, img::-moz-selection {
+    background: transparent;
+}
+
+#mainNav {
+    position: absolute;
+    border-bottom: 1px solid #e9ecef;
+    background-color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+    font-weight: 800;
+    color: #fff;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 992px) {
+    #mainNav {
+        border-bottom: 1px solid transparent;
+        background: none;
+        transition: background-color 0.2s;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+    }
+
+    #mainNav.is-fixed {
+        position: fixed;
+        top: -67px;
+        border-bottom: 1px solid #fff;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    #mainNav.is-fixed .navbar-brand {
+        color: #fff;
+    }
+
+    #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+        color: #fff;
+    }
+
+    #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+        color: #0085a1;
+    }
+}
+
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
+
+header.masthead .page-heading, 
+header.masthead .post-heading, 
+header.masthead .site-heading {
+    padding: 200px 0 150px;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .page-heading h1, 
+    header.masthead .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+header.masthead .post-heading h1 {
+    font-size: 35px;
+}
+
+footer {
+    padding: 10px 0 65px;
+    text-align: center;
+}
+
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+    background-color: #0085a1;
+    border-color: #0085a1;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #00657b !important;
+    border-color: #00657b !important;
+}
+
+.project {
+    padding-top: 40px;
+}
+
+.title {
+    margin-top: 5px !important;
+}
+
+.btn-lg {
+    font-size: 16px;
+    padding: 25px 35px;
+}
+
+hr {
+    margin-top: 4.5rem !important;
+    margin-bottom: 3.5rem !important;
+}

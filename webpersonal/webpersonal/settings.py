@@ -73,8 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "webpersonal.wsgi.app"
-
+WSGI_APPLICATION = "webpersonal.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
