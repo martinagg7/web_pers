@@ -59,12 +59,9 @@ Si aún no tienes un superusuario, créalo con el siguiente comando:
 ```bash
 python manage.py createsuperuser
 ```
-### Problemas con Vercel
+### Desplegar vercel
 
-Intentamos desplegar el proyecto en Vercel, pero tuvimos problemas técnicos que impidieron su correcto funcionamiento. 
-
-Por ahora, el proyecto solo está disponible para ejecutarse en tu entorno local siguiendo los pasos indicados anteriormente.
-
+A la derecha del repo
 
 ## Repositorio
 **Nombre de usuario:** martinagg7  
